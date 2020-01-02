@@ -1,0 +1,287 @@
+\documentclass{article}
+\usepackage[UTF8]{ctex}
+\usepackage{verbatim}
+\usepackage{geometry}
+\usepackage{natbib}
+\geometry{left=3.18cm,right=3.18cm,top=2.54cm,bottom=2.54cm}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subfigure}
+\pagestyle{plain}	
+\usepackage{setspace}
+\usepackage{caption2}
+\usepackage{datetime} %日期
+\renewcommand{\today}{\number\year 年 \number\month 月 \number\day 日}
+\renewcommand{\captionlabelfont}{\small}
+\renewcommand{\captionfont}{\small}
+\begin{document}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=8cm]{upc.png}
+
+    \label{figupc}
+\end{figure}
+
+	\begin{center}
+		\quad \\
+		\quad \\
+		\heiti \fontsize{45}{17} \quad \quad \quad 
+		\vskip 1.5cm
+		\heiti \zihao{2} 《计算科学导论》课程总结报告
+	\end{center}
+	\vskip 2.0cm
+		
+	\begin{quotation}
+% 	\begin{center}
+		\doublespacing
+		
+        \zihao{4}\par\setlength\parindent{7em}
+		\quad 
+
+		学生姓名：\underline{\qquad  高启东 \qquad \qquad}
+
+		学\hspace{0.8cm} 号：\underline{\qquad 1907010121\qquad}
+		
+		专业班级：\underline{\qquad 计科1901 \qquad  }
+		
+        学\hspace{0.8cm} 院：\underline{计算机科学与技术学院}
+% 	\end{center}
+		\vskip 2cm
+		\centering
+		\begin{table}[h]
+            \centering 
+            \zihao{4}
+            \begin{tabular}{|c|c|c|c|c|c|c|}
+            % 这里的rl 与表格对应可以看到，姓名是r，右对齐的；学号是l，左对齐的；若想居中，使用c关键字。
+                \hline
+                课程认识 & 问题思 考 & 格式规范  & IT工具  & Latex附加  & 总分 & 评阅教师 \\
+                30\% & 30\% & 20\% & 20\% & 10\% &  &  \\
+                \hline
+                 & & & & & &\\
+                & & & & & &\\
+                \hline
+            \end{tabular}
+        \end{table}
+		\vskip 2cm
+		\today
+	\end{quotation}
+
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+% 在这之前是封面，在这之后是正文
+\section{引言}
+在当今社会，计算机作为一项管理着全社会的信息科学产物，无时无刻参与了我们的日常生活，国内外都广泛的用计算机处理规划自己的工作生活。显然，电子计算机已经成为信息时代必不可少的一部分，所以，我选择了计算机专业，尽管现在我了解的计算机知识还很少，但我也已经感受到计算机科学的美妙。所以，我希望能够在大学以及以后的工作生活中提升自己，为国家计算机科技的发展贡献自己的绵薄之力。\par
+这是我升入大学的第一学期，大学生活很丰富，开设了很多新的课程，我也新学了很多知识，其中，计算科学导论这门课是很有特色的，比起其它课程，它更像科普类的，让我们对自己所学专业的分支有大体的了解，以便我们在将来更从容，更准确的选择发展方向。在这门课中，老师不仅提供了精彩的讲授，还鼓励我们自主学习，选择自己喜欢的方向做调研，然后进行主题演讲，以培养我们的学习能力和兴趣。在演讲中，我和搭档选了Linux系统作为演讲主题，在了解Linux系统后，我学到了很多，现在就我上半学期所学的计算科学导论内容和我所选主题做以下报告。
+\section{我对计算科学导论这门课程的认识、体会}
+我觉得这是这是一门很丰富精彩的课，作为计算机知识点学习的入门课以及计算机专业的核心课程，它不像其他专业课或基础课，它涉及的范围很广，几乎涵盖了所有计算机专业需要了解的知识。《计算科学导论（第三版）》\citep{赵致琢2004计算科学导论}共有五章：\par
+\begin{itemize}
+\item 第一章：引论。本章主要讲计算科学一词的来历和计算科学的研究方法，旨在为读者提供研读本书的正确方法。
+\item 第二章：计算科学的基本概念和基本知识。本章介绍了计算模型与二进制，通用数字计算机系统结构与工作原理，数字逻辑与集成电路，机器指令与汇编语言，算法、过程与程序，高级语言与程序设计，系统软件与应用软件，计算机组织与体系结构，并行计算机、通道与并行计算，计算机网络与通信，计算机图形学与图像处理，逻辑与人工智能到数据处理与演化计，计算机科学与技术一级学科等领域内的一些重要的基本概念。
+\item 第三章：计算科学：它的意义、内容和方法。本章围绕计算机科学与技术学科的定义、特点、基本问题、发展主线、主流方向、学科方法论、历史渊源、发展变化、知识组织结构与分类体系、学科发展的潮流与未来发展方向以及组织结构及其演变。
+\item 第四章：如何学习计算机科学和健康成长。本章就学科人才培养目标、教学重点与科学素养等内容进行了系统而又深入浅出的论述，以科学办学思想和内涵发展优先的理念为基础，全面阐述了在培养计算机科学与技术一级学科创新人才与高素质专业技术开发人才的过程中，如何使学生正确地认识和学好计算机科学与技术学科。
+\item 第五章：布尔代数基础。本章介绍了一些主要的算法以及计算科学的应用。
+\end{itemize}
+\par
+		所以，对我们计算机专业的学生来说，这堂课为我们提供了发展方向，让我们提前对自己的未来有更好的规划。老师用分组演讲的方式让我们更深层的了解自己感兴趣的方面，老师也在培养目标中对我们的能力提出要求。并且，课本中在探讨科学哲学和学科方法论时并不死板，而是很灵活，循序渐进，逐渐融入到新的内容中，这也是为我们树立了良好的榜样，为我们的学习提供了方法 。此外，课程内容与我们的生活息息相关，可以极大的方便我们的生活。以下是两个应用实例：
+\subsection{网络安全学}\par
+如今，随着互联网的普及，人们的工作与生活也几乎完全依赖网络，虽然网络极大的方便了我们的生活，但互联网泄露隐私的实例却层出不穷，因此，网络安全也随之成为人们的关注点。\par
+电商作为网络时代的产物，现在已经越来越离不开人们的生活了，但现在的电商网站都开始要求实名制，注册程序也越来越复杂了，需要我们提供不少个人信息，其中就包括手持身份证照片 。前段时间，警方查获的大批手持公民身份证照片，据犯罪嫌疑人供述，他们的手持照一般来源于两类途径：一类是“黑中介”以招工、注册第三方平台信息等名义套取或收买的兼职者信息，另一类是非正规金融网站泄露出的用户信息。获得海量手持照后，不法分子将它们卖给了不同“下家”，除了用“四件套”注册境外购物网站牟利的“注册商”外，还有大量个人照片流入了诈骗团伙手中。诈骗分子一旦将这些照片和其他个人信息进行“数据碰撞”，就能针对单个目标受害者“量身打造”诈骗方案，导致受害人被骗几率大大增加。像这样关于信息泄露的事例还有很多，但是我们可以通过网络安全技术及时查找并封锁可疑网址，并且对用户的重要信息加密，这样可以大大减少这种事情的发生。再者，随着网络安全可视化\citep{li2019analysis}的发展，它将成为网络安全的维护的重要手段。当然，网络安全技术不仅仅具有这些功能，这里就不再赘述了。中国工业互联网安全市场规模总体呈上升趋势（如图），所以，网络安全的发展还是挺乐观的。
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{zghlw}
+\caption{中国工业互联网安全市场规模及增长预测}
+\end{figure}
+
+
+\subsection{计算机图形学}\par
+\subsubsection{在生活娱乐中的应用：}\par
+如今，计算机图形学广泛应用到我们生活中。虚拟现实技术（Virtual Reality,VR）是由美国VPL公司创建人拉尼尔（Jaron Lanier）在20世纪80年代初所提出的。它就是计算机图形学领域的一种。随着科学技术的迅猛发展，虚拟现实技术在经济、艺术、教育乃至军事等领域均已开始广泛应用，并得到了长足发展。提起VR，我想大家或多或少有一点了解，目前我们见到最多的可能就是游乐场或游戏厅，那儿会有体验VR游戏的设备，所需设备很简单，就是一个眼镜，但通过这个特殊的眼镜，顾客可以非常真实地体验到到游戏中的场景，非常具有娱乐性。
+\subsubsection{在康复医学中的进展：\citep{李红玲2013虚拟现实技术及其在康复医学中的应用进展}}\par
+在康复医学中，VR提供如下训练：
+\begin{itemize}
+\item[1.]运动康复训练:包括平衡协调训练、行走及步态训练、上下肢运动康复训练等。
+\item[2.]日常生活行为康复训练：通过模拟真实生活场景来提供训练。
+\item[3.]认知能力训练：改善成人脑损伤患者的记忆功能。
+\end{itemize}
+\par
+VR康复技术相对传统的干预训练方法有着不可比拟的优势，其可以提供多种治疗场景和刺激，根据患者的实际情况进行治疗过程设计，而且同样的场景和任务可以重复进行，可以迅速得到治疗效果的反馈信息，可以使训练更具有科学性和趣味性，使得训练时间缩短，训练效果过更为显著，有利于开展远程康复治疗。即使现在技术不是很成熟，但随着科学技术的不断发展，VR技术将会日趋成熟完善，其必将在运动康复领域得到广泛应用。
+\subsubsection{在智慧医疗领域的发展：}\par
+现在比较热门智慧医疗成像系统，便是计算机技术的又一重要应用。例如PACS（医学影像）系统，在患者扫描完以后，他的数据就由CT扫描机直接向人工智能的服务器上推送。通过它服务器上的软件对这个结果进行计算然后进行储存，在大夫工作的时候我们可以向这个服务器调取他的结果。这套AI设备可以利用人工智能算法对采集到的CT影像进行快速分析，适用于肺癌、乳腺癌、脑中风等多种病症的诊断。当患者的CT影像中出现疑似病变特征时，AI就会自动发现并标注出病变区域。AI整个行为模拟了影像科医生读片的过程，而在速度上则要快得多。不仅如此， AI产品比人工优势在于，第一它是永不疲劳的，第二是有确定性的，就是它如果这一类结节能发现，基本上这一类结节它就不会丢。另外，AI还能够清晰地标注出疑似病灶、位置、大小、良恶性等信息。能够有效帮助医生提升诊断准确率，减少误诊、漏诊等。所以这项技术将会大大减少医生的工作量，既方便了医生，又方便了病人。
+\begin{comment}
+\subsection{这里是子标题样例}
+图片插入的样例：\par
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.7]{universe}
+\caption{The Universe}
+\label{fig:universe}
+\end{figure}
+
+\subsection{第二个子标题}
+表格插入样例：\par
+
+\begin{table}[h]
+    \centering
+    \caption{这是科学系的花名册}
+\begin{tabular}{rl}
+% 这里的rl 与表格对应可以看到，姓名是r，右对齐的；学号是l，左对齐的；若想居中，使用c关键字。
+    \hline
+     
+    姓名 & 学号 \\
+    \hline
+    张三 & 190704xxxx \\ 
+	\hline
+    李四 & 190704yyyy \\
+	\hline
+    王五 & 190704zzzz\\
+    \hline
+\end{tabular}
+    \label{table1}
+\end{table}
+\subsection{第三个子标题}
+这里是引用的样例：\par
+{\bf 注意，仅仅是引用的样例}\par
+我阅读了图书《机器学习实战》\citep{Harrington2013}，引发了我对卷积神经网络的兴趣，于是阅读了期刊论文《卷积神经网络研究综述》\citep{zhoufeiyan}，基于对卷积神经网络的深刻认识，我又学习了2018年计算机视觉领域的会议ECCV的会议论文《TextSnake》\citep{long2018textsnake}，来探索深度学习落实在生活生产领域的实际意义。\citep{rubini2001linux}\par
+\end{comment}
+\section{进一步的思考}
+我和搭档选择的课题是Linux操作系统，我们通过看文献、查资料等对它有了一个初步的了解。我们也顺利的完成了演讲，但其中有许多不完善的方面，经过老师的指正，现将补充后的演讲课题做以下报告：\par
+\subsection{什么是Linux？}\par
+Linux（Linux is not Unix）是一套免费使用和自由传播的符合POSIX标准的类Unix操作系统。
+Linux由C语言和平台相关的汇编代码写成，是一个基于POSIX和Unix的多用户、多任务、支持多线程和多CPU的操作系统。
+linux最早是由芬兰林纳斯·托瓦兹（Linus Torvalds）在赫尔辛基大学上学时出于个人爱好而编写。
+1991年，Linus Torvalds为尝试在英特尔x86架构上提供自由的类Unix操作系统而开发linux内核，
+伴随着互联网的发展，Linux得到了来自全世界软件爱好者、组织、公司的支持。
+除了在服务器操作系统方面保持着强劲的发展势头以外，在个人电脑、嵌入式系统上都有着长足的进步。
+Linux能运行主要的Unix工具软件、应用程序和网络协议。它支持32位和64位硬件。Linux继承了Unix以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。
+Linux与其他操作系统相比，具有开放源码、没有版权、技术社区用户多等特点，开放源码使得用户可以自由裁剪，灵活性高，功能强大，成本低。\par
+\subsection{Linux的发展史}\par
+Linux最早是由芬兰人Linus Torvalds设计的。当时由于UNⅨ的商业化，Andrew Tannebaum教授开发了Minix操作系统以便于不受AT\&T许可协议的约束，为教学科研提供一个操作系统。当时发布在Internet上，免费给全世界的学生使用。Minix具有较多Unix的特点，但与Unix不完全兼容。
+1991年10月5日，Linus为了给Minix用户设计一个比较有效的Unix PC版本，自己动手写了一个“类Minix”的操作系统。
+整个故事从两个在终端上打印AAAA...和BBBB...的进程开始的，当时最初的内核版本是0.02。Linus Torvalds将它发到了Minix新闻组，很快就得到了反应。
+Linus Torvalds在这种简单的任务切换机制上进行扩展，并在很多热心支持者的帮助下开发和推出了Linux的第一个稳定的工作版本。
+1991年11月，Linux0.10版本推出，0.11版本随后在1991年12月推出，当时将它发布在Internet上，免费供人们使用。
+当Linux非常接近于一种可靠的/稳定的系统时，Linus决定将0.13版本称为0.95版本。1994年3月，正式的Linux 1.0出现了，这差不多是一种正式的独立宣言。
+截至那时为止，它的用户基数已经发展得很大，而且Linux的核心开发队伍也建立起来了。\par
+\subsection{Linux、安卓、Unix、iOS的关系}\par
+总体来说，Linux基于Unix，安卓基于Linux，iOS基于Unix。
+\subsubsection{Linux与安卓}\par
+Android平台是基于Linxu内核搭建的，Linux内核的优势在于大内存管理、进程管理、基于权限的安全模型、统一的驱动模型、共享库支持、代码开源等。Android平台在设计过程中，针对移动终端资源有限的特点，对Linux进行了一定程度的裁剪：砍掉了原生的窗口系统、去除了对GNU Libc的支持（引入了更高效、针对优化过的Bionic）、裁剪掉了一些标准Linux工具的部分特性等。Linux提供核心服务：安全,内存管理,进程管理,网络和驱动模型等。Android按移动设备需求，在文件系统,内存管理，进程管理通讯和电源管理进行修改，添加了驱动相关新功能。Android系统层和Linux内核之间，加了Dalvik的Java虚拟机。Dalvik可执行文件(.dex),Java文件.class通过dx工具转化为.dex格式文件。下面的图片应该很直观的展示了Android系统和Linux发行版系统之间的区别和联系。可以这么说Android本质上还是一个Linux系统，只不过Google对它进行了裁剪和定制。
+\begin{figure}[H]
+\centering
+\subfigure[安卓]{
+\label{Fig.sub.1}
+\includegraphics[scale=0.4]{az}}
+\subfigure[Linux]{
+\label{Fig.sub.2}
+\includegraphics[scale=0.4]{Linux}}
+\caption{它们对应的系统架构}
+\end{figure}
+\subsubsection{Linux与Unix}\par
+Linux系统是一个类似Unix的操作系统，Linux系统是Unix在微机上的完整实现。Linux是Unix操作系统的一个克隆系统，没有Unix就没有Linux。但是，Linux和传统的Unix有很大的不同，两者之间的最大区别是关于版权方面的:Linux是开放源代码的自由软件，而Unix是对源代码实行知识产权保护的传统商业软件(授权费大约为5万美元);而Linux操作系统则是一种自由软件，是免费的，并且公开源代码。两者之间还存在如下的区别: Unix操作系统大多数是与硬件配套的，操作系统与硬件进行了绑定;而Linux则可运行在多种硬件平台上。
+Unix的历史要比Linux悠久，但是Linux操作系统由于吸取了其他操作系统的经验，其设计思想虽然源于Unix但是要优于Unix。\par
+\subsubsection{Unix与iOS}\par
+iOS是基于Darwin（unix的分支之一）并非原始的Unix系统，因此iOS简单说既是Unix的一部分又不同于Unix的一个系统。
+\par
+\subsection{Linux的安全问题}
+Linux本身虽是一个类Unix系统,但其仍具有自己的特点,而Linux与windows的区别主要体现在内核的体系结构上;然后用内核代码详细分析缓冲区溢出攻击时的权限变化,缓冲区溢出攻击之所以成为传统DAC(discretionary access control)机制下Linux安全的主要威胁,是因为它能攻击set\_uid程序进而取得超级用户权限;然后阐述LSM(Linux security module)的原理,LSM作为一个框架,为安全模块的编写提供了平台;最后进行基于LSM的运用MAC机制(mandatory access control)的安全模块设计与实现。 在MAC机制中,Linux中的每个实体都将有一个标签,用于对访问控制判断的依据。在设计该模块过程中,标签的设计采取了最小化特权和基于角色的访问控制的概念,较好的实现了提高系统安全的目的,有效的限制缓冲区溢出攻击影响。\citep{黄世杰2005linux}\par
+Linux本身也是个很灵活的系统，用户可以通过对系统的改造，有效提高其安全性。例如，美国国家安全局开发了一个强大的、灵活的安全架构，并把它集成到Linux操作系统中，创建了安全增强的系统，简称SELinux\citep{loscocco2001integrating}。使用SELinux的灵活性，可以配置系统来支持多种安全策略。该系统可以支持:\par
+\begin{itemize}
+\item 可以对数据实施法律限制、建立明确定义的用户角色或限制对机密数据的访问的分离策略。
+\item 对于限制web服务器仅访问授权数据等情况有用的遏制策略并将病毒和其他恶意代码造成的损害降至最低。
+\item 能够保护对数据和应用程序的未授权修改的完整性策略，以及可以保证数据按要求处理的调用策略。
+\end{itemize}
+\subsection{Linux的特点：}
+\begin{itemize}
+\item[1.] 开放性：系统遵循世界标准规范，特别是遵循开放系统互连(OSI)国际标准。
+\item[2.] 多用户：系统资源可以被不同用户使用，每个用户对自己的资源(例如：文件、设备)有特定的权限，互相影响。
+\item[3.] 多任务：它是计算机同时执行多个程序，而各个程序的运行互相独立。
+\item[4.] 良好的用户界面：Linux向用户提供了两种界面：用户界面和系统调用。Linux还为用户提供了图形用户界面。它利用鼠标、菜单、窗口、滚劢条等设施，给用户呈现一个直观、易操作、交互性强的友好的图形化界面。
+\item[5.] 设备独立性：是挃操作系统把所有外部设备统一当作成文件来看待，只要安装它们的驱劢程序，任何用户都可以象使用文件一样，操纵、使用这些设备，而不必知道它们的具体存在形式。Linux是具有设备独立性的操作系统，它的内核具有高度适应能力。
+\item[6.] 提供了丰富的网络功能：完善的内置网络是Linux一大特点。
+\item[7.]  可靠的安全系统：Linux采取了许多安全技术措施，包括对读、写控制、带保护的子系统、审计跟踪、核心授权等，这为网络多用户环境中的用户提供了必要的安全保障。
+\item[8.]良好的可移植性：是挃将操作系统从一个平台转移到另一个平台使它仍然能挄其自身的方式运行的能力。Linux是一种可移植的操作系统，能够在从微型计算机到大型计算机的任何环境中和任何平台上运行。
+\item[9.] 支持多文件系统　linux系统可以把许多不同的文件系统以挂载形式连接到本地主机上，包括Ext2/3、FAT32、NTFS、OS/2等文件系统，以及网络上其他计算机共享的文件系统NFS等，是数据备份、同步、复制的良好平台。
+\end{itemize}
+\subsection{Linux的前景：\citep{顾启元2004Linux}}\par
+关于Linux的前景，就目前Linux在各行各业中所起到的作用，可以预测未来3-8年内，Linux必然成为IT人所必备的技术之一，只不过是个人掌握程度或公司需求程度不同。
+从大方向Linux的不同应用领域来看:第一是作为企业服务器系统，Linux虽然比Windows和Unix晚出现，但是目前已经占据了90\%以上的市场，像BAT/TMD甚至微软官方门户网站都是使用的Linux系统。利用Linux系统可以为企业架构WWW服务器、数据库服务器、负载均衡服务器、邮件服务器、DNS服务器、代理服务器、路由器等，不但使企业降低了运营成本，同时还获得了Linux系统带来的高稳定性和高可靠性，且无须考虑商业软件的版权问题。目前Linux系统已经参透到电信、金融、政府、教育、银行、石油等各个行业，同时各大硬件厂商也相继支持Linux操作系统。
+
+第二是嵌入式Linux系统应用领域，这个领域对于大多数运维是不太熟悉的，因为这种Linux系统主要用作开发平台，举个例子：网络设备路由交换、防火墙的系统，专用的控制系统，比如自动售货机、手机、PDA、各种家用电器等，Android就是基于Linux开发来的。这个领域更多被看作是开发，而开发本就是一个来钱快，耗精力的行业，这也是一个“看天赋”的行业，不是单纯编写几万行代码就可以弥补的，更多的是对算法、数据结构的认知和理解。
+随着互联网的快速发展，Linux高级人才大量缺失，云平台的崛起也大幅度体现了中国Linux市场的人才需求，据有相关人士分析，现在有42\%的招聘经理表示，是否具备OpenStack和云计算相关知识会对他们的招聘决产生重大影响。而在专业人士这边，90\%的人认为Linux知识给了他们更多的工作机会、推动了他们的职业发展，86\%的人表示选择Linux工作的主要原因正是Linux技术在企业应用领域无处不在的广泛性，以及对Linux开源思想长久的热情，这一数值较去年增长了24个百分点。所以在未来Linux的发展前途不可限量。
+
+\begin{comment}
+这里是简单列表的样例：（如果需要标号自定义或者自动标记数字序号，请自行搜索语法）
+\begin{itemize}
+    \item 简单的列表结构 
+    \item 如这里所示
+    \item 此处仅为样例
+    \item 按需修改和使用
+\end{itemize}
+\end{comment}
+
+\section{总结}\par
+通过这门课，我了解到的不仅是书本中的知识，学到更多的是学习的方法和处理问题的方法。在研究所选课题时，我也遇到了许多坎坷，但这些科学的学习方法帮助了我很多。通过研究课题，我学会了许多新知识、新技能，通过小组演讲，我提升了和搭档的合作能力，通过课程报告，我也学会了合理、巧妙地从网上获取新知识。我坚信，这些知识和技能将会在我未来的发展中起很大作用，让我能够向着更好的方向前进。
+\section{附录}
+\begin{itemize}
+    \item Github账户:\par
+			个人网址: https://github.com/gqd000/-\par
+			个人网站截图:\par
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.1]{Github}
+\caption{Github}
+\label{fig:Github}
+\end{figure}
+
+    \item 观察者、学习强国、哔哩哔哩APP对应的截图。\par
+
+\begin{figure}[H]
+\centering
+\subfigure[观察者]{
+\label{Fig.sub.1}
+\includegraphics[scale=0.1]{gcz}}
+\subfigure[学习强国]{
+\label{Fig.sub.2}
+\includegraphics[scale=0.1]{xxqg}}
+\subfigure[Bilibili]{
+\label{Fig.sub.3}
+\includegraphics[scale=0.1]{bilibili}}
+\caption{APP截图}
+\end{figure}
+    \item CSDN账户：\par
+			个人网址: https://i.csdn.net/\#/uc/profile \par
+			网站截图:\par
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{csdn}
+\caption{CSDN}
+\end{figure}
+\newpage
+	 \item  博客园账户：\par
+				个人网址：http://home.cnblogs.com/u/1893224/\par
+				网站截图：\par
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{bky}
+\caption{博客园}
+\end{figure}
+    \item 小木虫账户:\par
+			个人网址: http://muchong.com/bbs/space.php?uid=20254932\par
+			网站截图\par
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{xmc}
+\caption{小木虫}
+\end{figure}
+				
+\end{itemize}
+
+
+\hspace*{\fill} \\
+
+\bibliographystyle{plain}
+\bibliography{main}
+
+\end{document}

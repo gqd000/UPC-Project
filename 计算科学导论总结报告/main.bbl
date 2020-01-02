@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{li2019analysis}
+Yan Li, Guang-qiu Huang, Chun-zi Wang, and Ying-chao Li.
+\newblock Analysis framework of network security situational awareness and
+  comparison of implementation methods.
+\newblock {\em EURASIP Journal on Wireless Communications and Networking},
+  2019(1):205, 2019.
+
+\bibitem{loscocco2001integrating}
+Peter Loscocco and Stephen Smalley.
+\newblock Integrating flexible support for security policies into the linux
+  operating system.
+\newblock In {\em USENIX Annual Technical Conference, FREENIX Track}, pages
+  29--42, 2001.
+
+\bibitem{李红玲2013虚拟现实技术及其在康复医学中的应用进展}
+李红玲.
+\newblock 虚拟现实技术及其在康复医学中的应用进展.
+\newblock {\em 中华物理医学与康复杂志}, 35(005):414--416, 2013.
+
+\bibitem{赵致琢2004计算科学导论}
+赵致琢.
+\newblock {\em 计算科学导论}.
+
+\bibitem{顾启元2004Linux}
+顾启元.
+\newblock Linux操作系统的发展前景.
+\newblock {\em 重庆高教研究}, 3(4):52--54, 2004.
+
+\bibitem{黄世杰2005linux}
+黄世杰.
+\newblock Linux 系统安全研究.
+\newblock Master's thesis, 南京理工大学, 2005.
+
+\end{thebibliography}
